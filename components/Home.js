@@ -9,7 +9,7 @@ import styles from '../style/style.js';
 export default function Home({ navigation }) {
     const [playerName, setPlayerName] = useState('');
     const [hasPlayerName, setHasPlayerName] = useState(false);
-
+//asd
     const handlePlayerName = (value) => {
         if (value.trim().length > 0) {
             setHasPlayerName(true);
